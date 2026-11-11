@@ -22,5 +22,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
   
       # Docker build
-      - name: Docker Build
-        run: docker build -t myapp .
+      
